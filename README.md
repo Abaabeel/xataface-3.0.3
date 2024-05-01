@@ -1,5 +1,18 @@
 # Xataface
 
+Needed old g2 theme activated - This repo uses the latest Xataface 3.0.3 and is tested on Ubuntu 22 LTS and PHP 8.1 and renders g2 theme. Some changes have been committed on the modules to accomodate g2. 
+
+To us simple call g2 module in conf.ini as follows:
+
+[_modules]
+modules_g2=modules/g2/g2.php
+
+Changed files:
+Replaced Daataface/ResultList.php from version 2
+Replaced Daataface/RelatedList.php from version 2 
+
+########################################################################
+
 A framework for building rich, data-driven applications in PHP and MySQL
 
 [![Build Status](https://travis-ci.org/shannah/xataface.svg?branch=master)](https://travis-ci.org/shannah/xataface)
