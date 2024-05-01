@@ -7,12 +7,14 @@ This repo uses the latest Xataface 3.0.3 and is tested on Ubuntu 22 LTS and PHP 
 To use clone the repo and call g2 module in conf.ini as follows:
 
 [_modules]
+
 modules_g2=modules/g2/g2.php
 
 #########################################################################
 
 Changed files:
 Replaced Daataface/ResultList.php from version 2
+
 Replaced Daataface/RelatedList.php from version 2 
 
 ########################################################################
