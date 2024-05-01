@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1919/dataface/modules/swete/trunk/actions
+END
+swete_save_translation.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1919/dataface/modules/swete/trunk/actions/swete_save_translation.php
+END
+swete_save_translations.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1908/dataface/modules/swete/trunk/actions/swete_save_translations.php
+END
+swete_show_diff.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1919/dataface/modules/swete/trunk/actions/swete_show_diff.php
+END
+swete_translation_template.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1919/dataface/modules/swete/trunk/actions/swete_translation_template.php
+END
+swete_unlock_record.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1919/dataface/modules/swete/trunk/actions/swete_unlock_record.php
+END

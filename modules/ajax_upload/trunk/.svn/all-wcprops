@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4980/dataface/modules/ajax_upload/trunk
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3310/dataface/modules/ajax_upload/trunk/changes.txt
+END
+widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3309/dataface/modules/ajax_upload/trunk/widget.php
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3310/dataface/modules/ajax_upload/trunk/readme.txt
+END
+ajax_upload.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4271/dataface/modules/ajax_upload/trunk/ajax_upload.php
+END
+actions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3308/dataface/modules/ajax_upload/trunk/actions.ini
+END
+installer.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3310/dataface/modules/ajax_upload/trunk/installer.php
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3310/dataface/modules/ajax_upload/trunk/version.txt
+END

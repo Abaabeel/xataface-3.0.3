@@ -1,0 +1,33 @@
+{*-------------------------------------------------------------------------------
+ * Xataface Web Application Framework
+ * Copyright (C) 2005-2008  Steve Hannah (shannah@sfu.ca)
+ * 
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *-------------------------------------------------------------------------------
+ *}
+{* This template shows the contents of a shopping cart. *}
+{use_macro file="Dataface_Main_Template.html"}
+	{fill_slot name="main_column"}
+		<script language="javascript" src="{$ENV.DATAFACE_URL}/js/ajaxgold.js"></script>
+		<script language="javascript" src="{$ENV.DATAFACE_URL}/modules/ShoppingCart/shipping/shipping.js"></script>
+		
+		<h2>Please Enter Your Shipping Details</h2>
+		<div class="portal-help">
+			Please enter the location where you would like to have your purchases shipped.
+		</div>
+		{$form}
+		
+	{/fill_slot}
+{/use_macro}

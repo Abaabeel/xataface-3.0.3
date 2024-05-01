@@ -1,0 +1,15 @@
+[swete_translation_template]
+	permission="swete_translation"
+	label="Translate Results"
+	description="Translate all of these results using the SWeTE Translation Engine"
+	url="{$this->url('-action=swete_translation_template')}&--weblite-admin=1"
+	category=table_actions
+	target="_blank"
+	icon="{$dataface_url}/modules/swete/images/translation_icon.png"
+	
+	
+[translate > translate]
+	permission="swete_translation"
+	description="Translate this record using Web Lite SWeTE"
+	url="{$record->getURL('-action=swete_translation_template')}&--weblite-admin=1"
+	url_condition="$record"

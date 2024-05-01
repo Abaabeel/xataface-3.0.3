@@ -1,0 +1,34 @@
+#switch-user-menu {
+	position: fixed;
+	background-color: #eaeaea;
+	border: 1px solid #ccc;
+	bottom: 0;
+	left: 0;
+	width: 150px;
+	height: 20px;
+	font-size: 10px;
+	color: black;
+	z-index: 10000;
+	
+}
+
+#switch-user-btn {
+	background-repeat: no-repeat;
+	background-image: url(images/arrow_switch.png);
+	width: 16px;
+	height: 16px;
+	padding:0;
+	margin: 0;
+	display: block;
+	float: right;
+	
+}
+.non-original-user #switch-user-btn {
+	background-image: url(images/arrow_undo.png);
+}
+
+
+
+#switch-user-btn span {
+	display: none;
+}

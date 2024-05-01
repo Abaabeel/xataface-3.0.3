@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4705/dataface/modules/group_permissions/trunk
+END
+permissions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/permissions.ini
+END
+group_permissions.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/group_permissions.php
+END
+installer.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/installer.php
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/version.txt
+END

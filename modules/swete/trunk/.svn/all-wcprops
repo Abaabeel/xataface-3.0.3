@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2171/dataface/modules/swete/trunk
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1911/dataface/modules/swete/trunk/readme.txt
+END
+swete.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2171/dataface/modules/swete/trunk/swete.php
+END
+actions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2171/dataface/modules/swete/trunk/actions.ini
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2171/dataface/modules/swete/trunk/version.txt
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2171/dataface/modules/swete/trunk/changes.txt
+END
+permissions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1908/dataface/modules/swete/trunk/permissions.ini
+END

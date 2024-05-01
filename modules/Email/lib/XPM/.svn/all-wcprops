@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3121/dataface/modules/Email/trunk/lib/XPM
+END
+ABOUT
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/ABOUT
+END
+DOCUMENTATION.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION.html
+END
+MIME.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/MIME.php
+END
+FUNC.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/FUNC.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/LICENSE
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/CHANGELOG
+END
+POP3.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/POP3.php
+END
+MAIL.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/MAIL.php
+END
+SMTP.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/SMTP.php
+END

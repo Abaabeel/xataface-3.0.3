@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Sample Application</title>
+	<script>
+		var DATAFACE_SITE_HREF='{$ENV.DATAFACE_SITE_HREF|escape}';
+		var DATAFACE_SITE_URL='{$ENV.DATAFACE_SITE_URL|escape}';
+		var DATAFACE_URL='{$ENV.DATAFACE_URL|escape}';
+	</script>
+	<script src="{$ENV.DATAFACE_URL}/js/jquery.packed.js"></script>
+	<script src="{$ENV.DATAFACE_URL}/modules/XataJax/js/xatajax.core.js"></script>
+	<script src="{$ENV.DATAFACE_URL}/modules/XataJax/js/xatajax.util.js"></script>
+	</head>
+	<body>
+	
+		<div id="php-test-output">
+		<h2>PHP Test Results</h2>
+			{$php_test_output}
+		</div>
+		<div id="js-test-output">
+		<h2>Javascript Test Results</h2>
+		
+		</div>
+	
+		{block name="after_global_footer"}
+	</body>
+</html>

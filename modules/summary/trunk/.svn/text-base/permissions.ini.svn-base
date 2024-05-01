@@ -1,0 +1,13 @@
+summary view = Permission to view a summary field
+summary group = Permission to group by a field in summary view
+summary = Permission to access the summary action.  Usually limited to administrators.
+
+[ADMIN extends ADMIN]
+	summary = 1
+	summary group = 1
+	summary view = 1
+	
+[MANAGER extends MANAGER]
+	summary = 1
+	summary group = 1
+	summary view = 1

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime
+END
+split_header.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/split_header.html
+END
+message.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/message.html
+END
+compose.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/compose.html
+END
+encode_header.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/encode_header.html
+END
+unique.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/unique.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/index.html
+END
+decode_header.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/decode_header.html
+END
+decode_content.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/decode_content.html
+END
+qp_encode.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/qp_encode.html
+END
+split_mail.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/split_mail.html
+END
+isset_header.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/isset_header.html
+END
+split_message.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/mime/split_message.html
+END

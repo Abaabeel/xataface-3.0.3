@@ -1,0 +1,5 @@
+copy.src.files=false
+copy.src.target=/Applications/MAMP/htdocs/group_permissions
+index.file=
+run.as=LOCAL
+url=http://localhost/group_permissions/

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3653/dataface/modules/pdfreports/trunk/templates/xataface/modules/pdfreports
+END
+edit_report.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/templates/xataface/modules/pdfreports/edit_report.html
+END
+pdfeditor-demo.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3653/dataface/modules/pdfreports/trunk/templates/xataface/modules/pdfreports/pdfeditor-demo.html
+END
+pdfreports_print_report_html.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/3653/dataface/modules/pdfreports/trunk/templates/xataface/modules/pdfreports/pdfreports_print_report_html.html
+END

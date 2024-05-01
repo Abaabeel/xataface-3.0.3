@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/actions
+END
+tagger_get_label.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/actions/tagger_get_label.php
+END
+tagger_autocomplete.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/actions/tagger_autocomplete.php
+END
+tagger_add_tag.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/actions/tagger_add_tag.php
+END
+tagger_get_record_id.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/actions/tagger_get_record_id.php
+END

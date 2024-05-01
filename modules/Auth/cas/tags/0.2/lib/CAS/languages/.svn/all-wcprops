@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/349/dataface/modules/Auth/cas/tags/0.2/lib/CAS/languages
+END
+english.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/349/dataface/modules/Auth/cas/tags/0.2/lib/CAS/languages/english.php
+END
+greek.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/349/dataface/modules/Auth/cas/tags/0.2/lib/CAS/languages/greek.php
+END
+french.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/349/dataface/modules/Auth/cas/tags/0.2/lib/CAS/languages/french.php
+END
+languages.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/349/dataface/modules/Auth/cas/tags/0.2/lib/CAS/languages/languages.php
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4040/dataface/modules/tm/trunk/actions
+END
+tm_add_translations.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3811/dataface/modules/tm/trunk/actions/tm_add_translations.php
+END
+tm_export_as_xliff.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4005/dataface/modules/tm/trunk/actions/tm_export_as_xliff.php
+END
+translate.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3828/dataface/modules/tm/trunk/actions/translate.php
+END
+tm_save_field.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2856/dataface/modules/tm/trunk/actions/tm_save_field.php
+END
+tm_import_from_xliff.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4040/dataface/modules/tm/trunk/actions/tm_import_from_xliff.php
+END
+tm_flag_translation.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3633/dataface/modules/tm/trunk/actions/tm_flag_translation.php
+END
+tm_get_strings.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3603/dataface/modules/tm/trunk/actions/tm_get_strings.php
+END

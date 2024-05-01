@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1168/dataface/modules/Reports/trunk/lib/html/dialogs
+END
+field-editor.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1168/dataface/modules/Reports/trunk/lib/html/dialogs/field-editor.html
+END
+table-editor.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1168/dataface/modules/Reports/trunk/lib/html/dialogs/table-editor.html
+END
+save-changes.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1168/dataface/modules/Reports/trunk/lib/html/dialogs/save-changes.html
+END
+select-report-to-load.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1168/dataface/modules/Reports/trunk/lib/html/dialogs/select-report-to-load.html
+END

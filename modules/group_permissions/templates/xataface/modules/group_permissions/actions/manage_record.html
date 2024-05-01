@@ -1,0 +1,100 @@
+{use_macro file="Dataface_Main_Template.html"}
+    {fill_slot name="main_section"}
+    <div id="group-permissions-loading">
+        <h3>Loading Group Permissions... Please wait 
+            <img src="{$ENV.DATAFACE_URL}/images/progress.gif" title="progress"/>
+        </h3>
+        
+    </div>
+    <div id="RecordRolesErrorPanel" style="display:none">
+        <h2>Group Permissions Not Initialized</h2>
+        <p>Group permissions is not yet set up for this table.  Would you like
+            to enable it now?</p>
+        <p><button id="activate-group-permissions">Enable Group Permissions</button></p>
+    </div>
+    <div id="RecordRolesPanel" style="display:none">
+        <h2>Manage Record Permissions</h2>
+
+        <div class="user-permissions">
+            <h3>Users</h3>
+
+            <table class='user-permissions-tbl'>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Roles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span data-kvc="username">Joe Blow</span>
+                        </td>
+                        <td>
+                            <ul class="role-tags"></ul>
+
+                            <select class="role-selector">
+                                <option value="">Select...</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="add-user-form hidden">
+                <div class="user-search">
+                    <input type="search" class="user-search-input"/>
+                </div>
+                <div class="users-list-wrapper"></div>
+                <div class="select-role">
+                    <label for="role-selector">Role:</label>
+                    <select class="role-list"></select>
+                </div>
+                <div class="buttons">
+                    <button class="add-user-button">Add Users</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="group-permissions">
+            <h3>Groups</h3>
+
+            <table class='group-permissions-tbl'>
+                <thead>
+                    <tr>
+                        <th>Group</th>
+                        <th>Roles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span data-kvc="username">Reviewers</span>
+                        </td>
+                        <td>
+                            <ul class="role-tags"></ul>
+
+                            <select class="role-selector">
+                                <option value="">Select...</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="add-group-form hidden">
+                <div class="group-search">
+                    <input type="search" class="group-search-input"/>
+                </div>
+                <div class="groups-list-wrapper"></div>
+                <div class="buttons">
+                    <button class="add-user-button">Add Group</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="button-bar">
+            <button class="revert-changes">Cancel/Reset</button>
+            <button class="save-changes">Save Changes</button>
+        </div>
+    </div>
+    {/fill_slot}
+{/use_macro}

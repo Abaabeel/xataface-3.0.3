@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/shipping/handlers
+END
+fedex.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/337/dataface/modules/ShoppingCart/trunk/shipping/handlers/fedex.php
+END
+pickup.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/shipping/handlers/pickup.php
+END
+ups.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/shipping/handlers/ups.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/lib/ShoppingCart
+END
+ShoppingCart.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/lib/ShoppingCart/ShoppingCart.class.php
+END
+paypal.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/165/dataface/modules/ShoppingCart/trunk/lib/ShoppingCart/paypal.class.php
+END
+MySQLShoppingCart.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/184/dataface/modules/ShoppingCart/trunk/lib/ShoppingCart/MySQLShoppingCart.class.php
+END

@@ -1,0 +1,60 @@
+{*-------------------------------------------------------------------------------
+ * Xataface Web Application Framework
+ * Copyright (C) 2005-2008  Steve Hannah (shannah@sfu.ca)
+ * 
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *-------------------------------------------------------------------------------
+ *}
+{* This template shows the contents of a shopping cart. *}
+{use_macro file="Dataface_Main_Template.html"}
+	{fill_slot name="main_section"}
+		<h2>Shopping Cart Contents</h2>
+		{if $cartObject->items|@count > 0}
+				{$cart}
+			
+			
+			{if !$ENV.prefs.ShoppingCart_disableShipping}
+				{if $currentShippingMethod}
+				<table>
+					<tr><th align="left">Shipping Method:</th>
+					<td>
+						
+							{$currentShippingMethod->val('shipping_method_label')|escape} [<a href="{$ENV.APPLICATION_OBJECT->url('-action=set_shipping_method')}">Change</a>]
+						
+							
+						
+					</td>
+					
+					</tr>
+					<tr>
+					<th align="left">Destination:</th>
+					<td>
+						{$destination|escape}
+					</td>
+						
+				</table>
+				{else}
+					<input type="button" onclick="window.location.href='{$ENV.APPLICATION_OBJECT->url('-action=set_shipping_method')}';" value="Next:  Select a shipping method" />
+					
+				{/if}
+			{/if}
+			<input type="button" onclick="window.location.href='{$ENV.APPLICATION_OBJECT->url('-action=clear_cart')}';" value="Empty Cart" />
+			<a href="?-action=checkout">Checkout Now</a>
+		{else}
+			<p>There are currently no items in your cart.</p>
+		{/if}
+		
+	{/fill_slot}
+{/use_macro}

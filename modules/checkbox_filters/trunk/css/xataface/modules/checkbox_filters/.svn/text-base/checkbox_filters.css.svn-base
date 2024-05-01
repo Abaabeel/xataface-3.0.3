@@ -1,0 +1,18 @@
+.xf-checkbox-filters ul {
+	padding:0;
+	margin:0;
+}
+.xf-checkbox-filters button {
+	font-size: 10px;
+	width: 50px;
+
+}
+.xf-checkbox-filter {
+	list-style-type: none;
+	list-style-image: none;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+	height: 1.5em;
+	width: 150px;
+}

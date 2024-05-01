@@ -1,0 +1,7 @@
+Version 0.2
+	Fixed redirection after login to send user to the correct page.
+	
+Version 0.1
+October 2, 2006
+
+	Initial Release

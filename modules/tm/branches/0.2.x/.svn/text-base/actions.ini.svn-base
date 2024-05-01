@@ -1,0 +1,22 @@
+[tm_translate_records]
+	label="Translate"
+	description="Translate records into other languages"
+	condition = "($tableobj =& Dataface_Table::loadTable($table)) and count($tableobj->getTranslations()) > 0"
+	category = "result_list_actions"
+	url="{$site_href}?-action=translate"
+	class="selected-action"
+	
+[cancel_translation]
+	label="Cancel"
+	description="Return to list"
+	category="translate_record_form_actions"
+	url="{$this->url('-action=list')}"
+	
+[save_translation]
+	label="Save"
+	description="Return to list"
+	category="translate_record_form_actions"
+	url="#"
+	class="save-translations"
+	
+	

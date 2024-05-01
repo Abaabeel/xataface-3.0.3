@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3150/dataface/modules/Email/trunk/templates/xataface/modules/email
+END
+manage.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3150/dataface/modules/Email/trunk/templates/xataface/modules/email/manage.html
+END
+email_progress.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3150/dataface/modules/Email/trunk/templates/xataface/modules/email/email_progress.html
+END
+email_progress_section.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3150/dataface/modules/Email/trunk/templates/xataface/modules/email/email_progress_section.html
+END
+email_opt_out.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3150/dataface/modules/Email/trunk/templates/xataface/modules/email/email_opt_out.html
+END

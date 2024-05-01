@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/4143/dataface/modules/ckeditor/trunk/lib/ckeditor/_source/plugins/forms/dialogs
+END
+form.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4143/dataface/modules/ckeditor/trunk/lib/ckeditor/_source/plugins/forms/dialogs/form.js
+END
+checkbox.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/4143/dataface/modules/ckeditor/trunk/lib/ckeditor/_source/plugins/forms/dialogs/checkbox.js
+END
+textfield.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/4143/dataface/modules/ckeditor/trunk/lib/ckeditor/_source/plugins/forms/dialogs/textfield.js
+END
+button.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/4143/dataface/modules/ckeditor/trunk/lib/ckeditor/_source/plugins/forms/dialogs/button.js
+END
+textarea.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/4143/dataface/modules/ckeditor/trunk/lib/ckeditor/_source/plugins/forms/dialogs/textarea.js
+END
+radio.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/4143/dataface/modules/ckeditor/trunk/lib/ckeditor/_source/plugins/forms/dialogs/radio.js
+END
+hiddenfield.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/4143/dataface/modules/ckeditor/trunk/lib/ckeditor/_source/plugins/forms/dialogs/hiddenfield.js
+END
+select.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/4143/dataface/modules/ckeditor/trunk/lib/ckeditor/_source/plugins/forms/dialogs/select.js
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/4923/dataface/modules/tagger/trunk
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2311/dataface/modules/tagger/trunk/readme.txt
+END
+tagger.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4909/dataface/modules/tagger/trunk/tagger.php
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2362/dataface/modules/tagger/trunk/license.txt
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2311/dataface/modules/tagger/trunk/Doxyfile
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2311/dataface/modules/tagger/trunk/version.txt
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2311/dataface/modules/tagger/trunk/changes.txt
+END
+widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2311/dataface/modules/tagger/trunk/widget.php
+END

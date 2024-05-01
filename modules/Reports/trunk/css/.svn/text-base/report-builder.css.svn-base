@@ -1,0 +1,105 @@
+/**
+ * The whole outer component.  The designer itself.
+ */
+#designer {
+	width: 640px;
+	height: 300px;
+
+}
+
+/**
+ * The scrollpanel for the document
+ */
+.xataface-reports-canvas-scrollpanel {
+	
+	
+	overflow: scroll;
+	border: 1px solid black;
+}
+
+
+/**
+ * The document itself.
+ */
+.xataface-reports-canvas-document {
+	position: relative;
+}
+
+.xataface-reports-canvas-element {
+	position: absolute;
+	background-image: url(../images/pixel.png);
+	overflow: hidden;
+}
+
+.xataface-reports-canvas-element-field, .xataface-reports-canvas-element-table {
+	border: 1px dotted #666;
+}
+
+.xataface-reports-canvas-element-selected {
+	border: 2px solid #336699;
+	opacity: .7; 
+	filter:Alpha(Opacity=70); 
+}
+
+.xataface-reports-canvas-element-content {
+	height: 100%;
+}
+
+.xataface-reports-canvas-element-table {
+}
+
+.xataface-reports-canvas-element-table-tag {
+	height: 100%;
+}
+
+.xataface-reports-canvas-element-table-tag tbody tr td {
+	border: 1px dotted #666;
+}
+
+.xataface-reports-canvas-element-table-tag tbody tr {
+}
+
+
+.xataface-reports-toolbar {
+	font-size: 10px;
+}
+
+.fg-button { outline: 0; margin:0 4px 0 0; padding: .4em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align: center; zoom: 1; }
+.fg-button .ui-icon { position: absolute; top: 50%; margin-top: -8px; left: 50%; margin-left: -8px; }
+
+a.fg-button { float:left;}
+
+/* remove extra button width in IE */
+button.fg-button { width:auto; overflow:visible; }
+
+.fg-button-icon-left { padding-left: 2.1em; }
+.fg-button-icon-right { padding-right: 2.1em; }
+.fg-button-icon-left .ui-icon { right: auto; left: .2em; margin-left: 0; }
+.fg-button-icon-right .ui-icon { left: auto; right: .2em; margin-left: 0; }
+
+.fg-button-icon-solo { display:block; width:8px; text-indent: -9999px; }	 /* solo icon buttons must have block properties for the text-indent to work */	
+
+.fg-buttonset { float:left; height: 32px; }
+.fg-buttonset .fg-button { float: left; }
+.fg-buttonset-single .fg-button, 
+.fg-buttonset-multi .fg-button { margin-right: -1px;}
+
+.fg-toolbar { padding: .5em; margin: 0; }
+.fg-toolbar .fg-buttonset { margin-right:1.5em; padding-left: 1px;  }
+.fg-toolbar .fg-button { font-size: 1em;  }
+
+/*demo page css*/
+h2 { clear: both; padding-top:1.5em; margin-top:0; } 
+.strike { text-decoration: line-through; }
+
+
+
+.xataface-reports-toolbar-colorchooser {
+	border: 1px solid #333;
+	width: 16px;
+	height: 16px;
+}
+
+
+
+/** END Toolbar button styles **/

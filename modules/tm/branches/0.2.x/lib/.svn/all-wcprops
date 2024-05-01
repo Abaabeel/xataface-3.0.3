@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib
+END
+kevin_XLIFFDocumentTester.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/kevin_XLIFFDocumentTester.php
+END
+XLIFFReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/XLIFFReader.php
+END
+kevin_XLIFFtester.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/kevin_XLIFFtester.php
+END
+test.xliff
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/test.xliff
+END
+googleTranslatePluginTester.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/googleTranslatePluginTester.php
+END
+TMTools.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/TMTools.php
+END
+TranslationStringParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/TranslationStringParser.php
+END
+kevin_TranslationStringTaggerTester.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/kevin_TranslationStringTaggerTester.php
+END
+XLIFFWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/XLIFFWriter.php
+END
+XLIFFDocument.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/XLIFFDocument.php
+END
+XFTranslationMemoryReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/XFTranslationMemoryReader.php
+END
+xliff-core-1.2-strict.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/xliff-core-1.2-strict.xsd
+END
+googleTranslatePlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/googleTranslatePlugin.php
+END
+XLIFFListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/XLIFFListener.php
+END
+kevin_XLIFFReaderTester.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/kevin_XLIFFReaderTester.php
+END
+TranslationStringTagger.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/TranslationStringTagger.php
+END
+XFTranslationDictionary.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/XFTranslationDictionary.php
+END
+XFTranslationMemory.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/lib/XFTranslationMemory.php
+END

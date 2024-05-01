@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/commons-logging-1.1.1.jar
+END
+WebPDFRenderer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/WebPDFRenderer.jar
+END
+batik-awt-util.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/batik-awt-util.jar
+END
+icepdf-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/icepdf-core.jar
+END
+batik-svggen.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/batik-svggen.jar
+END
+batik-svg-dom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/batik-svg-dom.jar
+END
+batik-util.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/batik-util.jar
+END
+batik-dom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/batik-dom.jar
+END
+commons-codec-1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/commons-codec-1.5.jar
+END
+batik-xml.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/codebase/batik-xml.jar
+END

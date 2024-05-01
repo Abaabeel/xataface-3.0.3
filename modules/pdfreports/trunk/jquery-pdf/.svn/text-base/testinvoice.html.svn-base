@@ -1,0 +1,238 @@
+<html>
+
+	<head>
+	<title>INVOICE #10757</title>
+	
+	<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.json.js"></script>
+<script type="text/javascript" src="jquery.pdf.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('#Print-PDF').pdfButton({
+		'canvas': '#invoice'
+	});
+});
+</script>
+	
+	<style type="text/css">
+		
+		body {
+			background-color: #ccc;
+			font-family: helvetica,arial,verdana,sans-serif;
+			font-size: 10pt;
+		}
+		
+		table {
+			border: 1px solid gray;
+			padding:0;
+			border-collapse: collapse;
+		}
+		
+		th {
+			border: 1px solid gray;
+			border-spacing: 0;
+			margin: 0;
+			padding:3px
+		}
+		
+		td {
+			font-size: 10pt;
+			vertical-align: top;
+			border: 1px solid gray;
+			border-spacing:0;
+			margin: 0;
+			padding:10px;
+		}
+		
+		#invoice {
+			width: 8.5in;
+			height: 11in;
+			background-color: white;
+			margin: 0 auto;
+			position: relative;
+		}
+	
+		#company-logo {
+			position:absolute;
+			left: 1in;
+			top: .2in;
+			width: 2in;;
+			height: 1in;
+		
+		}
+		
+		#company-logo img {
+			width: 217px;
+		}
+		
+		#heading {
+			position: absolute;
+			right: 1in;
+			top: 1in;
+			width: 2in;
+			height: 1in;
+			text-align: left;
+			
+		}
+		
+				#heading2 {
+			position: absolute;
+			right: 1in;
+			top: 1.25in;
+			width: 2in;
+			height: 1in;
+			text-align: left;
+			
+		}
+		
+		#company-return-address {
+			position: absolute;
+			left: 1in;
+			top: 1.45in;
+			width: 3.5in;
+			height: 1in;
+			text-align: left;
+		}
+		
+		#bill-to-address {
+			position: absolute;
+			left: 1in;
+			top: 1.75in;
+			width: 4in;
+			height: 1in;
+			text-align: left;
+		}
+		
+		#terms {
+			position: absolute;
+			right: 1in;
+			top: 3in;
+			width: 3in;
+			height: 1in;
+			text-align: right;
+		}
+		
+		#line-items {
+			position: absolute;
+			left: 1in;
+			top: 3.5in;
+			width: 6.5in;
+			height: 4in;
+			
+		}
+		
+		#broker-of-record {
+			position: absolute;
+			left: 1in;
+			top: 9in;
+			height: 0.5in;
+			width: 6.5in;
+		}
+		
+		#fineprint {
+			position:absolute;
+			left: 1in;
+			top: 10.5in;
+			height: 0.5in;
+			font-size: 8pt;
+			width: 6.5in;
+			color: #333;
+		}
+	</style>
+	
+	</head>
+	
+	<body>
+		<a href="#" id="Print-PDF">Print PDF</a>
+		<div id="invoice">
+		<div id="company-logo"><img src="http://www.leadmonitor.com/BILLING/images/1sourcesm.jpg"/></div>
+		
+  <div id="heading"><font size="3">Invoice #10757</font></div>
+  <div id="heading2"><font size="3">Invoice Date:02/24/09</font></div>
+		<div id="company-return-address">
+			1565 W. Main St., Ste 468 ~ Lewisville, TX 75067<br/>Phone: (214) 222-8330 ~ Fax: (214) 222-3130
+		</div>
+		
+		<div id="bill-to-address">
+			<h3>Bill to</h3>
+			
+    <div> 
+      <p>Estancia At Vista Ridge<br>
+        Attn: Accounts Payable<br/>
+        2701 MacArthur Blvd <br/>
+        Lewisville, TX 
+        75067 </p>
+      </div>
+		
+		</div>
+		
+		<div id="terms">
+			<b>Terms:</b> 
+		</div>
+		
+		<div id="line-items">
+		
+			
+    <table>
+      <thead>
+        <tr> 
+          <th>Move In Date</th>
+          <th>Description</th>
+          <th>Rent Amount</th>
+          <th>Commission Rate</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr> 
+          <td>2009-02-24</td>
+          <td>Locator Name: Jeff Dean<br />
+Property Name: Estancia At Vista Ridge<br />
+Billing Address: 2701 MacArthur Blvd, Lewisville, 75067<br />
+Property Phone: <br />
+Property Fax: <br />
+<br />
+Client Name: Sanchez, Albert <br />
+Apartment #: <br />
+Client Address: NULL<br />
+NULL, NULL NULL<br />
+<br />
+Move in Date: 2009-02-24<br />
+Base Rent: 0.00<br />
+Commission Rate: 0<br />
+Commission Amount: 527.00<br />
+Bonus: 0.00<br />
+<br />
+Leased by: NULL<br />
+Confirmed by: NULL<br />
+</td>
+          <td>$0.00</td>
+          <td></td>
+          <td>$527.00</td>
+        </tr>
+      </tbody>
+    </table>
+		
+		</div>
+		
+		
+  <div id="broker-of-record"> 
+    <table width="100%">
+      <tr> 
+        <td width="52%">Federal ID 36-4618510<font size="4">&nbsp;</font></td>
+        <td width="21%"><div align="right"><font size="4"><strong>Total Due:</strong></font></div></td>
+        <td width="27%"><div align="center"><font size="4">$527.00</font></div></td>
+      </tr>
+    </table>
+    <p>1 Source Apartments is an Equal Opportunity Provider. J Dean Real Estate LLC. <br/> Website: http://www.1sourceapartments.com ~ Broker of Record: Joanna Dean Lic 0472728 </p>
+    <p>&nbsp; </p>
+  </div>
+		
+		
+  <div id="fineprint"> </div>
+		
+		</div>
+	
+	</body>
+</html>

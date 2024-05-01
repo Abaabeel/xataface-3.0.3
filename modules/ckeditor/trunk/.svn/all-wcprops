@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4492/dataface/modules/ckeditor/trunk
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3152/dataface/modules/ckeditor/trunk/changes.txt
+END
+widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4492/dataface/modules/ckeditor/trunk/widget.php
+END
+ckeditor.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4492/dataface/modules/ckeditor/trunk/ckeditor.php
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2607/dataface/modules/ckeditor/trunk/readme.txt
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2607/dataface/modules/ckeditor/trunk/license.txt
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2607/dataface/modules/ckeditor/trunk/Doxyfile
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4173/dataface/modules/ckeditor/trunk/version.txt
+END

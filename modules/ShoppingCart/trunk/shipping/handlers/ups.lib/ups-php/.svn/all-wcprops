@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/shipping/handlers/ups.lib/ups-php
+END
+upsTrack.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/shipping/handlers/ups.lib/ups-php/upsTrack.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/shipping/handlers/ups.lib/ups-php/test.php
+END
+upsRate.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/shipping/handlers/ups.lib/ups-php/upsRate.php
+END

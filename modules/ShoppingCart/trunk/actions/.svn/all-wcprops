@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1323/dataface/modules/ShoppingCart/trunk/actions
+END
+refresh_shipping_methods.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/337/dataface/modules/ShoppingCart/trunk/actions/refresh_shipping_methods.php
+END
+add_to_cart.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1323/dataface/modules/ShoppingCart/trunk/actions/add_to_cart.php
+END
+view_cart.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/697/dataface/modules/ShoppingCart/trunk/actions/view_cart.php
+END
+checkout.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/dataface/modules/ShoppingCart/trunk/actions/checkout.php
+END
+payment_complete.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/697/dataface/modules/ShoppingCart/trunk/actions/payment_complete.php
+END
+payment_cancelled.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/actions/payment_cancelled.php
+END
+get_shipping_provinces.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/337/dataface/modules/ShoppingCart/trunk/actions/get_shipping_provinces.php
+END
+paypal_ipn.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1023/dataface/modules/ShoppingCart/trunk/actions/paypal_ipn.php
+END
+set_shipping_method.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/698/dataface/modules/ShoppingCart/trunk/actions/set_shipping_method.php
+END
+calculate_shipping.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/698/dataface/modules/ShoppingCart/trunk/actions/calculate_shipping.php
+END
+clear_cart.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/413/dataface/modules/ShoppingCart/trunk/actions/clear_cart.php
+END
+invoices.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/697/dataface/modules/ShoppingCart/trunk/actions/invoices.php
+END

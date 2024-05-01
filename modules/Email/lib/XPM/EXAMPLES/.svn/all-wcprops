@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES
+END
+mime-smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/mime-smtp.php
+END
+mail-local.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/mail-local.php
+END
+pop3-read.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/pop3-read.php
+END
+xpertmailer.gif
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/xpertmailer.gif
+END
+mail-relay.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/mail-relay.php
+END
+smtp-comm.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/smtp-comm.php
+END
+smtp-relay.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/smtp-relay.php
+END
+mail-client.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/mail-client.php
+END
+mime-local.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/mime-local.php
+END
+mime-parse.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/mime-parse.php
+END
+smtp-client.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/smtp-client.php
+END
+pop3-smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/pop3-smtp.php
+END
+mail-unix.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/EXAMPLES/mail-unix.php
+END

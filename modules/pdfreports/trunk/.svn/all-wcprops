@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4984/dataface/modules/pdfreports/trunk
+END
+installer.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3654/dataface/modules/pdfreports/trunk/installer.php
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/version.txt
+END
+test.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/test.pdf
+END
+pdf_editor_widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/pdf_editor_widget.php
+END
+actions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/actions.ini
+END
+pdfreports.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3651/dataface/modules/pdfreports/trunk/pdfreports.php
+END

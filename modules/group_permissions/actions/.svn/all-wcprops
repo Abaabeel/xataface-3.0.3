@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/actions
+END
+group_permissions_set_record_roles.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/actions/group_permissions_set_record_roles.php
+END
+group_permissions_group_add_members.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/actions/group_permissions_group_add_members.php
+END
+group_permissions_get_record_roles.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/actions/group_permissions_get_record_roles.php
+END
+group_permissions_group_remove_members.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/actions/group_permissions_group_remove_members.php
+END
+group_permissions_init.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/actions/group_permissions_init.php
+END
+group_permissions_users_table_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/actions/group_permissions_users_table_info.php
+END
+group_permissions_manage_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/actions/group_permissions_manage_group.php
+END
+group_permissions_manage_record.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/4675/dataface/modules/group_permissions/trunk/actions/group_permissions_manage_record.php
+END
+group_permissions_manage_user.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/actions/group_permissions_manage_user.php
+END
+group_permissions_manage_groups.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/actions/group_permissions_manage_groups.php
+END

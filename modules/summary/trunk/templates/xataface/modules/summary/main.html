@@ -1,0 +1,156 @@
+{*
+ * Xataface Summary Module
+ * 
+ * Copyright (C) 2011  Steve Hannah <shannah@sfu.ca>
+ * 
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Library General Public
+ * License as published by the Free Software Foundation; either
+ * version 2 of the License, or (at your option) any later version.
+ * 
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Library General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Library General Public
+ * License along with this library; if not, write to the
+ * Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ * Boston, MA  02110-1301, USA.
+ *}
+{**
+ * This template is used by the summary_page action.  It displays the 
+ * summary stats for a table.
+ * 
+ * The CSS styles are set in:
+ * css/xataface/modules/summary/main_summary_page.css
+ *
+ * The main javascript file for this page is located at
+ * js/xataface/modules/summary/summary-page.js
+ * 
+ * @author Steve Hannah <steve@weblite.ca>
+ * @created June 1, 2011
+ *
+ * @section parameters Parameters
+ *
+ * The following parameters are passed into the context by the summary_page action:
+ *
+ * @param array(string=>array) $summaryFields An associative array of the explicitly defined summary fields in this table.
+ * @param array(string) $groupableFields Array of names of fields that are eligible to be used in group-by clause.
+ * @param array(string) $summarizableFields Array of names of fields that are eligible to be used in summary report as summary fields.
+ * @param array(string=>array) $groupFuncs Associative array of group functions that can be applied to groupable Fields.
+ * @param actions_summary_page $self Reference to the summary_page action.  It defines some
+ *		convenience methods.
+ * @param array rows 2-dimensional array of associative arrays with results of the SQL query.
+ * @param Dataface_Table $table Reference to the current Dataface_Table object.
+ *
+ *}
+{use_macro file="Dataface_List_View.html"}
+
+	{fill_slot name="result_list_content"}
+	
+		<h2>Summary Reports for {$table->getLabel()|escape}</h2>
+	
+		
+		{assign var=currFilters value=$self->getCurrentFilters()}
+		
+			<div class="query-browser">
+				<p>This page summarizes the current result set ({$numResults} records) which includes the following searches:</p>
+				{if $currFilters|@count>0}
+				<ul class="tagit">
+					{foreach from=$currFilters item=filter key=colname}
+						<li class="tagit-choice" data-filter-field="{$colname|escape}">{$filter|escape}</li>
+					{/foreach}
+				
+				</ul>
+				
+				<p><a href="{$ENV.APPLICATION_OBJECT->url('-action=find')}">Edit Search Terms...</a></p>
+				
+				{else}
+				
+				<p><em>Currently there are no search terms. </em><a href="{$ENV.APPLICATION_OBJECT->url('-action=find')}">Edit Search Terms...</a></p>
+				{/if}
+			</div>
+		
+	
+		<fieldset>
+		<legend>Report Options</legend>
+		<div class="summary-group-by-columns-form">
+			<select multiple="multiple">
+				{foreach from=$groupableFields item=field key=key}
+					<option value="{$key|escape}" {if $self->isSelectedGroupField($key)}selected{/if}>{$field.widget.label|escape}</option>
+				{/foreach}
+			</select>
+		</div>
+		
+		
+		
+		<div class="summary-summarized-columns-form">
+			<select multiple="multiple">
+				{foreach from=$summarizableFields item=field key=key}
+					<optgroup label="{$field.widget.label|escape}">
+						{foreach from=$groupFuncs item=func key=gkey}
+				
+							{if $self->supports($key,$gkey)}
+								<option value="{$gkey|escape}({$key|escape})" {if $self->isSelectedSummaryField($key, $gkey)}selected{/if}>{$func.label}</option>
+							{/if}
+						{/foreach}
+					</optgroup>
+				{/foreach}
+				
+				<optgroup label="Summary Fields">
+					{foreach from=$summaryFields item=field key=key}
+						<option value="{$key|escape}" {if $self->isSelectedSummaryField($key)}selected{/if}>{$field.widget.label|escape}</option>
+							
+						
+					{/foreach}
+				</optgroup>
+			
+			</select>
+		</div>
+		
+		<button id="refresh-button">Refresh Results</button>
+		
+		</fieldset>
+		
+		
+		{if $rows|@count>0}
+		{if $rows|@count>29}
+			{result_controller}
+		{/if}
+		<div class="result-list-actions summary-list-actions">
+			{actions_menu id="result-list-actions" id_prefix="result-list-actions-" class="icon-only" category="summary_list_actions"}
+		</div>
+		<div class="summary-results">
+			<table class="xataface-summary-list listing">
+				<thead>
+					<tr>
+					{if $groupBy}{foreach from=$groupBy item=col}
+						<th>{$self->getFieldLabel($col)|escape}</th>
+					{/foreach}{/if}
+					{foreach from=$self->getSelectedSummaryColumns() item=col}
+						<th>{$self->getSummaryLabel($col)|escape}</th>
+					{/foreach}
+					</tr>
+				</thead>
+				<tbody>
+					{foreach from=$rows item=row}
+						<tr>
+							
+							{foreach from=$row item=cell key=ckey}
+								<td>{$self->getCellValue($ckey,$cell)|escape}</td>
+							{/foreach}
+						
+						</tr>
+					{/foreach}
+				</tbody>
+			</table>
+		
+		</div>
+		{else}
+		
+			<p>Please select some summary fields to display, then click "Refresh"</p>
+		{/if}
+		
+	{/fill_slot}
+{/use_macro}

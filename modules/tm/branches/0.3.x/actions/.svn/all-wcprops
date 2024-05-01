@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4804/dataface/modules/tm/branches/0.3.x/actions
+END
+tm_save_field.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4801/dataface/modules/tm/branches/0.3.x/actions/tm_save_field.php
+END
+tm_validate_xliff.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4803/dataface/modules/tm/branches/0.3.x/actions/tm_validate_xliff.php
+END
+tm_import_from_xliff.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4804/dataface/modules/tm/branches/0.3.x/actions/tm_import_from_xliff.php
+END
+tm_flag_translation.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4801/dataface/modules/tm/branches/0.3.x/actions/tm_flag_translation.php
+END
+tm_get_strings.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4803/dataface/modules/tm/branches/0.3.x/actions/tm_get_strings.php
+END
+tm_add_translations.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4801/dataface/modules/tm/branches/0.3.x/actions/tm_add_translations.php
+END
+tm_export_as_xliff.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4803/dataface/modules/tm/branches/0.3.x/actions/tm_export_as_xliff.php
+END
+translate.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4803/dataface/modules/tm/branches/0.3.x/actions/translate.php
+END

@@ -1,0 +1,11 @@
+group_permissions_users_info = Permission to see information about the users table
+group_permissions_manage_group = "Permission to manage a group / add/remove members"
+group_permissions_manage_record_permissions = "Permission to manage the permissions on a record."
+group_permissions_manage_table_permissions = "Permission to manage permissions on a table."
+__assignable__ = "Flag to indicate that a role can be assigned using group permissions"
+
+[VIEWER extends READ ONLY]
+    __assignable__=1
+
+[MANAGER extends MANAGER]
+    __assignable__=1

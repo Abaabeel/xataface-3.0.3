@@ -1,0 +1,9 @@
+.xf-PageElementPropertiesPanel .textAlign button {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.xf-PageElementPropertiesPanel .textAlign button.selected {
+	background-color: #dedede;
+}

@@ -1,0 +1,11 @@
+0.2 880
+Jan. 12, 2009
+
+ - Better support for PHP 4
+ - Only appropriate widget types are now loaded into grid
+ - Includes export to CSV option.
+
+0.1 829
+
+ - Initial release.
+

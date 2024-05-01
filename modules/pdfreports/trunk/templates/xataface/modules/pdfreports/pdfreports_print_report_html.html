@@ -1,0 +1,14 @@
+{* The template used by the pdfreport_print_report action. 
+*}{use_macro file="Dataface_Main_Template.html"}
+
+	{fill_slot name="html_body"}
+		<div class="xf-ReportViewer-wrapper">
+		{$reportHtml}
+		</div>
+		
+		{block name="before_global_footer"}
+		{define_slot name="global_footer"}{include file="global_footer.html"}{/define_slot}
+		{block name="after_global_footer"}
+	{/fill_slot}
+
+{/use_macro}

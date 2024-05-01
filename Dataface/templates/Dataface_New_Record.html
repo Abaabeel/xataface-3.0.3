@@ -1,0 +1,53 @@
+{*-------------------------------------------------------------------------------
+ * Dataface Web Application Framework
+ * Copyright (C) 2005-2006  Steve Hannah (shannah@sfu.ca)
+ * 
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *-------------------------------------------------------------------------------
+ *}
+{use_macro file="Dataface_Main_Template.html"}
+    {if $ENV.action == 'new'}
+        {fill_slot name="h1"}
+        {define_slot name="new_record_form_header"}
+        	<div class="new-record-header">
+        		<h1 class="new-record-header-label">
+        			{if $new_record_header_label_html}
+        				{$new_record_header_label_html}
+        			{else}
+        				{$new_record_header_label|escape}
+        			{/if}
+        		</h1>
+        		<div class="new-record-header-description formHelp">
+        			{if $new_record_header_description_html}
+        				{$new_record_header_description_html}
+        			{else}
+        				{$new_record_header_description|escape}
+        			{/if}
+        		</div>
+        	</div>
+        {/define_slot}
+        {/fill_slot}
+    {/if}
+	{fill_slot name="main_section"}
+        {define_slot name="new_record_back_button"}
+        {cancel_back_button}
+        {/define_slot}
+		{block name="before_new_record_form"}
+		{define_slot name="new_record_form"}
+                    {include file="Dataface_New_Record_inc.html"}
+		{/define_slot}
+		{block name="after_new_record_form"}
+	{/fill_slot}
+{/use_macro}

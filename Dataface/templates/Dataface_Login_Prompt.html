@@ -1,0 +1,210 @@
+{*-------------------------------------------------------------------------------
+ * Dataface Web Application Framework
+ * Copyright (C) 2005-2006  Steve Hannah (shannah@sfu.ca)
+ * 
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *-------------------------------------------------------------------------------
+ *}
+{use_macro file="Dataface_Main_Template.html"}
+	{fill_slot name="custom_stylesheets"}
+	<style type="text/css">
+	{literal}
+		#Login-Username label, #Login-Password label {
+			display: block;
+			float: left;
+			width: 100px;
+			text-align: right;
+			padding-right: 1em;
+		}
+        .mobile-footer, .zoom {
+            display:none;
+        }
+        
+        #mobile-top-section {
+            display:none;
+        }
+	{/literal}
+	</style>
+	{/fill_slot}
+    {fill_slot name="html_title"}
+        {$ENV.APPLICATION_OBJECT->getSiteTitle()|escape}
+    {/fill_slot}
+    {fill_slot name="h1"}
+        <h1>{$ENV.APPLICATION_OBJECT->getSiteTitle()|escape}</h1>
+    {/fill_slot}
+	{fill_slot name="main_section"}
+        {script src="xataface/actions/login_form.js"}
+        <script>{literal}
+        // hide sidemenu
+            (function() {
+                var sideMenu = document.querySelector('.sidemenu.header');
+                if (sideMenu) {
+                    sideMenu.style.display = 'none';
+                }
+                var toggle = document.querySelector('.sidebarIconToggle');
+                if (toggle) {
+                    toggle.style.display = 'none';
+                }
+                
+                function installFocusListeners() {
+
+                    var username = document.getElementById('Login-Username');
+                    var password = document.getElementById('Login-Password');
+                    if (username) {
+                        var fld = username.querySelector('input');
+                        if (fld) {
+                            fld.addEventListener('focus', function() {
+                                username.classList.add('focused');
+                            });
+                            fld.addEventListener('blur', function() {
+                                username.classList.remove('focused');
+                            });
+                        }
+                        
+                    }
+                    if (password) {
+                        var fld = password.querySelector('input');
+                        if (fld) {
+                            fld.addEventListener('focus', function() {
+                                password.classList.add('focused');
+                            });
+                            fld.addEventListener('blur', function() {
+                                password.classList.remove('focused');
+                            });
+                        }
+                        
+                    }
+                }
+                
+                function movePortalMessage() {
+                    if (window.innerWidth <= 768) {
+                        return;
+                    }
+                    var portalMessage = document.querySelector('.portalMessage');
+                    if (portalMessage) {
+                        
+                        portalMessage.parentNode.removeChild(portalMessage);
+                        var loginWindow = document.querySelector('#login-window');
+                        if (loginWindow) {
+                            loginWindow.insertBefore(portalMessage, loginWindow.firstChild);
+                        }
+                        
+                    }
+                }
+                
+                window.addEventListener('DOMContentLoaded', installFocusListeners);
+                window.addEventListener('DOMContentLoaded', movePortalMessage);
+            })();
+            
+            
+        {/literal}</script>
+		<div id="login-window">
+		{if $ENV.user}
+		<div id="xf-already-logged-in-msg" style="display:none">{translate id="You are already logged in"}You are already logged in{/translate}</div>
+		<script>
+			{literal}
+				alert(document.getElementById('xf-already-logged-in-msg').innerHTML);
+				var url = window.location.href;
+				url = url.replace(/-action=login_prompt/, '');
+				window.location.href=url;
+			{/literal}
+		</script>
+		{/if}
+		{block name="before_login_form"}
+		{define_slot name="login_form"}
+        {define_slot name="login_logo"}<div id="login-logo">{include file="Dataface_Logo.html"}</div>{/define_slot}
+		{define_slot name="login_heading"}<h1>{translate id="Please Login"}Please Login to access this section of the site{/translate}</h1>{/define_slot}
+        {assign var="allow_email_login" value=$ENV.auth->isEmailLoginAllowed()}
+        {assign var="allow_password_login" value=$ENV.auth->isPasswordLoginAllowed()}
+        {assign var="auto_register" value=false}
+        {if $ENV.APPLICATION._auth.auto_register and $allow_email_login and !$allow_password_login}
+            {assign var="auto_register" value=true}
+        {/if}
+		{if $msg}<div class="portalMessage">{$msg}</div>{/if}
+		<form action="{$ENV.DATAFACE_SITE_HREF}" method="post" 
+            class="xataface-login-form 
+                {if $allow_email_login}xf-allow-email-login xf-email-login{else}xf-password-login{/if}
+                {if $allow_password_login}xf-allow-password-login{/if}
+                ">
+		<input type="hidden" name="-action" value="login" />
+		{if !$redirect}
+			{assign var=rkey1 value="-redirect"}
+			{assign var=rkey2 value="-redirect"}
+			{if $ENV.QUERY.$rkey1}
+				{assign var="redirect" value=$ENV.QUERY.$rkey1}
+			{elseif $ENV.QUERY.$rkey2}
+				{assign var="redirect" value=$ENV.QUERY.$rkey2}
+			{elseif $smarty.session.$rkey1}
+				{assign var="redirect" value=$smarty.session.$rkey1}
+			{elseif $smarty.session.$rkey2}
+				{assign var="redirect" value=$smarty.session.$rkey2}
+			{/if}
+		{/if}
+		<input type="hidden" name="-redirect" value="{$redirect|escape}" />
+		<fieldset>
+		<legend>{translate id="Login Form"}Login Form{/translate}</legend>
+			{block name="before_login_username}
+			<div id="Login-Username">
+				<label>{translate id="Email or Username"}Email or Username{/translate}:</label>
+				<input type="text" name="UserName" value="{$ENV.REQUEST.UserName|escape}">
+			</div>
+			{block name="after_login_username"}
+            {if $allow_password_login}
+            <div class="login-with-password">
+    			<div id="Login-Password">
+    				<label>{translate id="Password"}Password{/translate}:</label>
+    				<input type="password" name="Password" value="{$ENV.REQUEST.Password|escape}">
+    			</div>
+    			{block name="after_login_password"}
+    			<input id="Login-submit" name="-submit" type="submit" value="{translate id="scripts.GLOBAL.LABEL_LOGIN"}Log in{/translate}"/>
+                
+                {if $allow_email_login}
+                <div class="login-with-email-button-wrapper">
+                    <span>or</span>
+                    <a id="Login-with-email-button">log in with email</a>
+                </div>
+                {/if}
+    			{block name="after_login_submit"}
+            </div>
+            {/if}
+            {if $allow_email_login}
+            <div class="login-with-email">
+                <button id="Login-with-email-submit" class="xf-submit-button">Email Login Link</button>
+                {if $allow_password_login}
+                <span>or</span>
+                <a id="Login-with-password-button">log in with password</a>
+                {/if}
+            </div>
+            {/if}
+            {if $ENV.APPLICATION._auth.autologin}
+            <div class='remember-me'>
+                <input type="checkbox" id='remember-me-cb' name="--remember-me"><label for='remember-me-cb'>Remember me</label>
+            </div>
+            {/if}
+            
+		</fieldset>
+		
+		</form>
+		{actions category="login_actions" var="login_actions"}
+		<ul class="login-actions {if $auto_register}xf-auto-register{/if}">
+		{foreach from=$login_actions item="action"}
+		 	<li><a class="xf-login-action-{$action.name|escape}" href="{$action.url|escape}" {if $action.target}target="{$action.target|escape}"{/if}>{if $action.materialIcon}<i class="material-icons">{$action.materialIcon|escape}</i>{/if}<span>{$action.label|escape}</span></a></li>
+		{/foreach}
+		</ul>
+		{/define_slot}
+		{block name="after_login_form"}
+	</div>
+	{/fill_slot}
+{/use_macro}

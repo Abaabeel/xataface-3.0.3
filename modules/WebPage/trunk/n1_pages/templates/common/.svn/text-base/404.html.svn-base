@@ -1,0 +1,10 @@
+{use_macro file="Dataface_Main_Template.html"}
+
+	{fill_slot name="main_section"}
+		<h2>404: Page not found</h2>
+		
+		<p>The page that you requested could not be found.</p>
+	
+	{/fill_slot}
+	
+{/use_macro}

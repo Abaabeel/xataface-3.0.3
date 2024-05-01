@@ -1,0 +1,40 @@
+<html>
+
+<head>
+<title>Testing</title>
+
+<style type="text/css">
+	body {
+		background-color: #ccc;
+	}
+	#content {
+		width: 8.5in;
+		height: 8.5in;
+		margin: 10px auto;
+		background-color: white;
+		
+	}
+	
+</style>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.json.js"></script>
+<script type="text/javascript" src="jquery.pdf.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('.getpdf').pdfButton({
+		'canvas': '#content'
+	});
+});
+</script>
+
+</head>
+<body>
+<div id="content">
+<p style="font-size: 50px; background-image: url(http://static.jquery.com/files/rocker/images/logo_jquery_215x53.gif)">Hello <span>World!!!</span></p>
+<p style="background-color: blue; padding-top: 20px; opacity:0.25; filter:alpha(opacity=25);">What is Lorem Ipsum?  Lorem Ipsum is simply <strong style="color: red">dummy text of the printing and typesetting industry</strong>. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p><img style="border: 1px solid black; padding: 10px" id="back-image" src="http://static.jquery.com/files/rocker/images/logo_jquery_215x53.gif"/>
+</div>
+<input type="button" class="getpdf" value="Get PDF"/>
+</body>
+</html>

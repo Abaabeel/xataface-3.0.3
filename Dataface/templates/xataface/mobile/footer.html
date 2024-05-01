@@ -1,0 +1,67 @@
+<div class="mobile-footer">
+    {if $ENV.prefs.mobile_nav_style=='hamburger'}
+        {* 
+            Use the mobile_nav_style preference to choose the navigation style for mobile.
+            Options include:
+            
+            1. hamburger - Use the hamburger menu for navigating top-level.  With this option,
+               the table_tabs_mobile category actions will be used for bottom tabs - 2nd level navigation.
+            2. tabs - Use tabs for navigating top-level.
+        *}
+    	{if $ENV.prefs.show_table_tabs} 
+       		{block name="before_table_tabs_mobile"}
+    		{define_slot name="table_tabs_mobile"}
+    			<div class="tabs_wrapper_mobile" id="table_tabs_wrapper_mobile">
+
+    					<nav role="navigation" class="table_tabs_mobile">
+    						{actions_menu  class="contentViews" category="table_tabs" selected_action=$ENV.mode}
+
+    					</nav>
+
+
+    				<div style="height:0px;padding:0;margin:0;clear:both"></div>
+    			</div>
+			
+    		{/define_slot}
+            {block name="after_table_tabs_mobile"}
+        {/if}
+        
+    {else}
+    	{block name="before_table_tabs_mobile"}
+ 		{define_slot name="table_tabs_mobile"}
+ 			<div class="tabs_wrapper_mobile" id="table_tabs_wrapper_mobile">
+                    <a class='mobile-app-menu-trigger' href="{$ENV.APPLICATION_OBJECT->url('-action=xf_mobile_app_menu')|escape}" data-xf-sheet-position="{$ENV.prefs.mobile_app_menu_sheet_position}"><i class='material-icons'>menu</i></a>
+ 					<nav role="navigation" class="table_tabs_mobile">
+                         {if df_count_actions('_tables') > 0}
+ 						    {actions_menu  class="contentViews" category="_tables" selected_action=$ENV.mode}
+                         {else}
+                             <ul class='contentViews'>
+                              {foreach from=$ENV.APPLICATION._tables item=label key=table}
+                                  {assign var=nav value=$ENV.APPLICATION_OBJECT->getNavItem($table, $label)}
+                                  {if $nav}
+                             
+                              <li {if $nav.selected}class="selected"{/if}><a href="{$nav.href|escape}"
+                                                  accesskey="accesskeys-navigation"
+                                                  class="table-selection-tab {if $nav.selected}selected{/if}"
+                                                  title="{$nav.label|escape}"
+                                                  id="TableLink_{$table|escape}">
+                                
+                                
+                                                          <span>{$nav.label|escape}</span>
+                                
+                                                  </a></li>
+                                  {/if}
+                              {/foreach}
+                          </ul>
+                         {/if}
+
+ 					</nav>
+
+
+ 				<div style="height:0px;padding:0;margin:0;clear:both"></div>
+ 			</div>
+		
+ 		{/define_slot}
+        {block name="after_table_tabs_mobile"}
+    {/if}
+</div>

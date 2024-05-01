@@ -1,0 +1,21 @@
+<?php
+//phpinfo();exit;
+require_once '../lib/fpdf16/fpdf.php';
+require_once '../lib/fpdfi13/fpdi.php';
+$pdf = new FPDI('P','pt');
+$pdf->addPage();
+$pdf->setSourceFile('test.pdf');
+$id = $pdf->importPage(1);
+$pdf->useTemplate($id, 0,0);
+$pdf->SetDrawColor(0,0,0);
+$pdf->SetLineWidth(2);
+$pdf->Rect(129,195,100,100);
+//$pdf->Output('test2.pdf','D');
+ini_set('display_errors','on');
+error_reporting(E_ALL);
+$img = new Imagick('test.pdf');
+//print_r($img->getDensity());
+//print_r($img->getImageResolution());exit;
+$img->setImageFormat('png');
+header("Content-type: image/png");
+echo $img;

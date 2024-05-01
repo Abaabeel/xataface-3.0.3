@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4523/dataface/modules/DataGrid/trunk/templates/DataGrid
+END
+view.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4523/dataface/modules/DataGrid/trunk/templates/DataGrid/view.html
+END
+list.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/560/dataface/modules/DataGrid/trunk/templates/DataGrid/list.html
+END
+datastore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/560/dataface/modules/DataGrid/trunk/templates/DataGrid/datastore.xml
+END
+grid.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2950/dataface/modules/DataGrid/trunk/templates/DataGrid/grid.html
+END
+new.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2387/dataface/modules/DataGrid/trunk/templates/DataGrid/new.html
+END

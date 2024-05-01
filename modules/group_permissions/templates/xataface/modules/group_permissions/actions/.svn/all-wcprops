@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/templates/xataface/modules/group_permissions/actions
+END
+manage_record.html
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/templates/xataface/modules/group_permissions/actions/manage_record.html
+END
+manage_groups.html
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/templates/xataface/modules/group_permissions/actions/manage_groups.html
+END

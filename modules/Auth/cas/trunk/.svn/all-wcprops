@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4198/dataface/modules/Auth/cas/trunk
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/347/dataface/modules/Auth/cas/trunk/version.txt
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/347/dataface/modules/Auth/cas/trunk/changes.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/158/dataface/modules/Auth/cas/trunk/README.txt
+END
+cas.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4198/dataface/modules/Auth/cas/trunk/cas.php
+END

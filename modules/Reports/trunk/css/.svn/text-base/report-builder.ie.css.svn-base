@@ -1,0 +1,4 @@
+a.fg-button { width: 32px}
+.xataface-reports-toolbar-group-align {
+	width: 150px;
+}

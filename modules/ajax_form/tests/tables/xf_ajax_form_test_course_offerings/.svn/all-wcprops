@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4031/dataface/modules/ajax_form/trunk/tests/tables/xf_ajax_form_test_course_offerings
+END
+create.sql
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/4031/dataface/modules/ajax_form/trunk/tests/tables/xf_ajax_form_test_course_offerings/create.sql
+END
+relationships.ini
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/4031/dataface/modules/ajax_form/trunk/tests/tables/xf_ajax_form_test_course_offerings/relationships.ini
+END

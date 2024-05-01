@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/349/dataface/modules/Auth/cas/tags/0.2/lib/CAS/PGTStorage
+END
+pgt-main.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/349/dataface/modules/Auth/cas/tags/0.2/lib/CAS/PGTStorage/pgt-main.php
+END
+pgt-db.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/349/dataface/modules/Auth/cas/tags/0.2/lib/CAS/PGTStorage/pgt-db.php
+END
+pgt-file.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/349/dataface/modules/Auth/cas/tags/0.2/lib/CAS/PGTStorage/pgt-file.php
+END

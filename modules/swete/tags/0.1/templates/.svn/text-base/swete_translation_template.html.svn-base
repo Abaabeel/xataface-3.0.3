@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>SWeTE Translations for {$table} table</title>
+<meta charset="utf-8">
+<style type="text/css">{literal}
+body {
+	padding: 30px;
+}
+
+.record-row {
+	border: 1px solid #ccc;
+	padding: 1px;
+	background-color: #eaeaea;
+	padding: 20px;
+	margin: 10px;
+}
+
+.record-column {
+	border: 1px dotted #ccc;
+	background-color: white;
+	padding: 10px;
+}
+{/literal}</style>
+<script>DATAFACE_SITE_HREF='{$ENV.DATAFACE_SITE_HREF}'; DATAFACE_SITE_URL='{$ENV.DATAFACE_SITE_URL}';</script>
+</head>
+<body data-table="{$tablename}">
+	<!-- Begin WebLite Translate Code -->{literal}
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script id="weblite-translation-script" site-id="{/literal}{$ENV.APPLICATION._swete.site_id}{literal}" charset="utf-8" default-language="en" languages="{/literal}{$ENV.APPLICATION._swete.languages}{literal}" >
+	jQuery.noConflict();
+	(function(){var cbs=[],l=null;jQuery.fn.translationsReady = function(cb){if (l && typeof(cb)=='function'){return cb(l);}if ( typeof(cb) == 'string' ){l=cb;while (cbs.length>0) (cbs.pop())(cb);} else {cbs.push(cb);}}})();
+	jQuery(document).ready(function(){
+		jQuery.ajaxSetup({ cache: true });
+		jQuery.getScript('http://translation.weblite.ca/js/webpage2.js');
+	});
+	</script>
+	<div id="swete-basic-badge">&nbsp;</div> 
+	{/literal}<!-- End WebLite Translate Code -->
+	<script src="{$ENV.DATAFACE_SITE_URL}/js/jquery-json.js"></script>
+	<script src="{$ENV.DATAFACE_SITE_URL}/js/swete_translation_template.js"></script>
+	{foreach from=$rows item=row}
+		<div class="record-row" data-xataface-id="{$row->getId()|escape}">{foreach from=$cols item=col}{if $row->val($col) and ($row->_table->isChar($col) or $row->_table->isText($col))}<div class="record-column" data-column="{$col}">{$row->htmlValue($col)}</div>{/if}{/foreach}
+		</div>
+	{/foreach}
+</body>
+</html>

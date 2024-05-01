@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp
+END
+ehlo.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/ehlo.html
+END
+helo.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/helo.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/index.html
+END
+connect.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/connect.html
+END
+data.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/data.html
+END
+disconnect.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/disconnect.html
+END
+send.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/send.html
+END
+rset.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/rset.html
+END
+mxconnect.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/mxconnect.html
+END
+recv.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/recv.html
+END
+auth.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/auth.html
+END
+quit.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/quit.html
+END
+to.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/to.html
+END
+from.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/566/dataface/modules/Email/trunk/lib/XPM/DOCUMENTATION/smtp/from.html
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4981/dataface/modules/calendar/trunk
+END
+actions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2724/dataface/modules/calendar/trunk/actions.ini
+END
+calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2670/dataface/modules/calendar/trunk/calendar.php
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2670/dataface/modules/calendar/trunk/version.txt
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2670/dataface/modules/calendar/trunk/changes.txt
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2670/dataface/modules/calendar/trunk/readme.txt
+END

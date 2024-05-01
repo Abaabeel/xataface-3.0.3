@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3503/dataface/modules/comments/trunk
+END
+permissions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3499/dataface/modules/comments/trunk/permissions.ini
+END
+comments.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3499/dataface/modules/comments/trunk/comments.php
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3502/dataface/modules/comments/trunk/readme.txt
+END
+actions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3499/dataface/modules/comments/trunk/actions.ini
+END
+installer.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3501/dataface/modules/comments/trunk/installer.php
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3500/dataface/modules/comments/trunk/version.txt
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3499/dataface/modules/comments/trunk/changes.txt
+END

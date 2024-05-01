@@ -1,0 +1,11 @@
+Version 0.2
+April 14, 2011
+	
+	- Converted "Translate" tab to use SWeTE for translation of individual records.
+	- Added notice to Edit Record Form and New Record Form that they should only
+	  edit records in the alternate languages via SWeTE.
+	  
+Version 0.1
+August 19, 2010
+
+Initial Release

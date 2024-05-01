@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views
+END
+base.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/base.js
+END
+code.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/code.js
+END
+page.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/page.js
+END
+layout.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/layout.js
+END
+palette.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/palette.js
+END
+live.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/live.js
+END
+outline.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/outline.js
+END
+tree.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/tree.js
+END
+widget.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/widget.js
+END
+property.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/property.js
+END
+project.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/src/js/views/project.js
+END

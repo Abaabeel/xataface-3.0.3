@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5001/dataface/modules/depselect/trunk
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4915/dataface/modules/depselect/trunk/version.txt
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2350/dataface/modules/depselect/trunk/changes.txt
+END
+widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4915/dataface/modules/depselect/trunk/widget.php
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2358/dataface/modules/depselect/trunk/readme.txt
+END
+depselect.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2350/dataface/modules/depselect/trunk/depselect.php
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2355/dataface/modules/depselect/trunk/license.txt
+END

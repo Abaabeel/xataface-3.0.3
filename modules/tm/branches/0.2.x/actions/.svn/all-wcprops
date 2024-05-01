@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/actions
+END
+translate.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/actions/translate.php
+END
+tm_save_field.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/actions/tm_save_field.php
+END
+tm_flag_translation.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/actions/tm_flag_translation.php
+END
+tm_get_strings.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/actions/tm_get_strings.php
+END
+tm_add_translations.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/actions/tm_add_translations.php
+END

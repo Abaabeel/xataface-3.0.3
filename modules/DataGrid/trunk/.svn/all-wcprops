@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4523/dataface/modules/DataGrid/trunk
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/929/dataface/modules/DataGrid/trunk/version.txt
+END
+DataGrid.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2950/dataface/modules/DataGrid/trunk/DataGrid.php
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/929/dataface/modules/DataGrid/trunk/changes.txt
+END
+permissions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/829/dataface/modules/DataGrid/trunk/permissions.ini
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/829/dataface/modules/DataGrid/trunk/readme.txt
+END
+actions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2387/dataface/modules/DataGrid/trunk/actions.ini
+END

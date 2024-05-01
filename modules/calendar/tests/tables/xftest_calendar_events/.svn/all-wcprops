@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2670/dataface/modules/calendar/trunk/tests/tables/xftest_calendar_events
+END
+create.sql
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2670/dataface/modules/calendar/trunk/tests/tables/xftest_calendar_events/create.sql
+END
+fields.ini
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2670/dataface/modules/calendar/trunk/tests/tables/xftest_calendar_events/fields.ini
+END

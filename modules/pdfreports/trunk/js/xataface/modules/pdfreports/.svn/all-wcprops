@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4984/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports
+END
+pdfeditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3434/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/pdfeditor.js
+END
+pdfrenderer.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/pdfrenderer.js
+END
+pdfeditor-widget.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/pdfeditor-widget.js
+END
+pdfeditor-demo.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/pdfeditor-demo.js
+END
+pdfreports_print_report_html.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/4984/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/pdfreports_print_report_html.js
+END
+PDFReport.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3434/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/PDFReport.js
+END
+DataSchema.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/DataSchema.js
+END
+ReportContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/ReportContainer.js
+END

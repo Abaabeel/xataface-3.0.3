@@ -1,0 +1,3 @@
+tm:get strings = "Permission to get strings from the translation memory"
+tm:add translation = "Add translation to a translation memory"
+tm:flag translation = "Flag translation in a translation memory"

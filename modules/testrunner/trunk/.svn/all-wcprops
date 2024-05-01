@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4165/dataface/modules/testrunner/trunk
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2801/dataface/modules/testrunner/trunk/readme.txt
+END
+testrunner.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2886/dataface/modules/testrunner/trunk/testrunner.php
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2801/dataface/modules/testrunner/trunk/license.txt
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2801/dataface/modules/testrunner/trunk/version.txt
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2801/dataface/modules/testrunner/trunk/changes.txt
+END
+permissions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2801/dataface/modules/testrunner/trunk/permissions.ini
+END

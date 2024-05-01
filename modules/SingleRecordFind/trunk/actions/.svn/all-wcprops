@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/202/dataface/modules/SingleRecordFind/trunk/actions
+END
+sr_advanced_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/202/dataface/modules/SingleRecordFind/trunk/actions/sr_advanced_search.php
+END
+sr_search_results.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/202/dataface/modules/SingleRecordFind/trunk/actions/sr_search_results.php
+END

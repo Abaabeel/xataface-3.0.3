@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/698/dataface/modules/ShoppingCart/trunk/templates/ShoppingCart
+END
+set_shipping_method.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/698/dataface/modules/ShoppingCart/trunk/templates/ShoppingCart/set_shipping_method.html
+END
+invoices.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/697/dataface/modules/ShoppingCart/trunk/templates/ShoppingCart/invoices.html
+END
+view_cart.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/697/dataface/modules/ShoppingCart/trunk/templates/ShoppingCart/view_cart.html
+END
+missing_shipping_info.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/337/dataface/modules/ShoppingCart/trunk/templates/ShoppingCart/missing_shipping_info.html
+END
+payment_complete.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/697/dataface/modules/ShoppingCart/trunk/templates/ShoppingCart/payment_complete.html
+END

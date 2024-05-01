@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/4705/dataface/modules/group_permissions/trunk/js/xataface/modules/group_permissions/components
+END
+ManageGroupsPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/js/xataface/modules/group_permissions/components/ManageGroupsPanel.js
+END
+ActivateGroupPermissionsPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/js/xataface/modules/group_permissions/components/ActivateGroupPermissionsPanel.js
+END
+ManageRecordRolesPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/4705/dataface/modules/group_permissions/trunk/js/xataface/modules/group_permissions/components/ManageRecordRolesPanel.js
+END
+AddUserRoleForm.js
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/4681/dataface/modules/group_permissions/trunk/js/xataface/modules/group_permissions/components/AddUserRoleForm.js
+END
+AddRemoveGroupMembersPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/js/xataface/modules/group_permissions/components/AddRemoveGroupMembersPanel.js
+END
+MasterRelationshipPortal.js
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/4673/dataface/modules/group_permissions/trunk/js/xataface/modules/group_permissions/components/MasterRelationshipPortal.js
+END

@@ -1,0 +1,234 @@
+.xf-pdfeditor-titlebar {
+	background-image: url(images/button-bg.png);
+	background-color: white;
+	color: #aaa;
+	border: 1px solid #eaeaea;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+	height: 18px;
+	font-size: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	
+}
+
+.xf-pdfeditor-body {
+	border: 1px solid #eaeaea;
+
+}
+
+.xf-pdfeditor-titlebar-label {
+	float: left;
+}
+
+.xf-pdfeditor-titlebar-status {
+	float:right;
+}
+
+.xf-pdfeditor-report-body {
+	overflow: scroll;
+	background-image: url(images/arkfgcq.png);
+	
+}
+
+.xf-pdfreport-ReportViewer {
+	margin: 10px auto;
+}
+
+.xf-pdfreport-PagePanel-background {
+	z-index: -10;
+}
+
+.xf-pdfreport-PagePanel {
+	position: relative;
+}
+
+.xf-pdfreport-PageElement {
+	border: 2px solid transparent;
+	position: absolute;
+	outline: 0;
+}
+
+.xf-pdfreport-Portal-childrenPane {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+.xf-pdfreport-Portal-childrenPane li {
+	position: relative;
+	padding:0;
+	margin:0;
+	border:none;
+	list-style-type:none;
+	list-style-image:none;
+	
+}
+
+
+.xf-pdfreport-ReportViewer.editable .xf-pdfreport-PageElement:hover {
+	border-color: #ccc;
+}
+.xf-pdfreport-ReportViewer.editable .xf-pdfreport-PageElement.selected {
+	border-color: #bbccff;
+}
+
+.xf-pdfreport-PageElement .edit-content {
+	display:none;
+}
+
+.xf-pdfreport-ReportViewer.editable .xf-pdfreport-PageElement .edit-content {
+	display:block;
+}
+
+.xf-pdfreport-ReportViewer.editable .xf-pdfreport-PageElement .preview-content {
+	display:none;
+}
+
+
+
+
+
+.xf-pdfeditor-action {
+	background-color: transparent;
+}
+
+.xf-pdfeditor-action.selected {
+	background-color: #ccc;
+}
+
+
+/**  The Menu Bar ***/
+
+
+.xf-pdfeditor-toolbar {
+	border-bottom: none;
+	padding: 3px;
+	margin:0;
+	background-color: #edf3fe;
+	height: 23px;
+}
+
+.xf-pdfeditor-toolbar .xf-pdfeditor-toolbar-info {
+	clear: both;
+}
+
+.xf-pdfeditor-toolbar .result-stats .limit-field
+{
+	display:none;
+}
+
+
+
+.xf-pdfeditor-toolbar .result-stats {
+	float: left;
+
+}
+
+
+.xf-pdfeditor-toolbar-actions {
+	float: left;
+}
+
+.xf-pdfeditor-toolbar-actions ul {
+	margin: 0;
+	padding: 0;
+}
+
+.xf-pdfeditor-toolbar-actions ul li {
+	float: left;
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0;
+}
+
+
+
+
+
+.xf-pdfeditor-toolbar-actions ul li a {
+	display: block;
+	color: black;
+	border: 1px solid #ccc;
+	text-decoration: none;
+	text-align: center;
+	background-image: url(images/button-bg.png);
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0px 8px 0px 8px;
+	font-size: 90%;
+	margin-left: 3px;
+	margin-right: 3px;
+	background-color: white;
+	cursor: pointer;
+	
+}
+
+.xf-pdfeditor-toolbar-actions ul li a span.arrow {
+	padding-left:20px;
+
+	background: url(images/arrowDown.gif) no-repeat 50% 50%;
+
+}
+
+.xf-pdfeditor-toolbar-actions ul li.right-btn a {
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-top-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin-right: 3px;
+	margin-left: 0;
+}
+
+.xf-pdfeditor-toolbar-actions ul li.middle-btn a {
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-top-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.xf-pdfeditor-toolbar-actions ul li.left-btn a {
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin-left: 3px;
+	margin-right: 0;
+}
+
+
+
+.xf-pdfeditor-window.fullscreen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: 100;
+}
+
+
+.xf-pdfreport-PageElement {
+	overflow: hidden;
+}

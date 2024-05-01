@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2603/dataface/modules/htmlreports/tags/0.1/actions
+END
+htmlreports_view_report.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2603/dataface/modules/htmlreports/tags/0.1/actions/htmlreports_view_report.php
+END
+htmlreports_preview_report.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2603/dataface/modules/htmlreports/tags/0.1/actions/htmlreports_preview_report.php
+END
+htmlreports_schemabrowser_preview_row.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2603/dataface/modules/htmlreports/tags/0.1/actions/htmlreports_schemabrowser_preview_row.php
+END
+htmlreports_schemabrowser_getschema.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2603/dataface/modules/htmlreports/tags/0.1/actions/htmlreports_schemabrowser_getschema.php
+END
+htmlreports_validate_template.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2603/dataface/modules/htmlreports/tags/0.1/actions/htmlreports_validate_template.php
+END

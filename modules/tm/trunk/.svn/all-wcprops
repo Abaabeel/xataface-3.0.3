@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/4385/dataface/modules/tm/trunk
+END
+tm.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2856/dataface/modules/tm/trunk/tm.php
+END
+permissions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3633/dataface/modules/tm/trunk/permissions.ini
+END
+actions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/4041/dataface/modules/tm/trunk/actions.ini
+END
+installer.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4385/dataface/modules/tm/trunk/installer.php
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3848/dataface/modules/tm/trunk/version.txt
+END

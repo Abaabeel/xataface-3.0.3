@@ -1,0 +1,99 @@
+{use_macro file="Dataface_Main_Template.html"}
+
+    {fill_slot name="main_column"}
+    
+    <h1>Manage Groups</h1>
+    <div id="manage-groups-panel" class="no-group-selected">
+        
+        <div class="ui-layout-center">
+            <div class="tabs">
+                <ul>
+                    <li><a href="#group-details">Group Details</a></li>
+                    <li><a href="#add-members-panel">Add/Remove Members</a></li>
+                </ul>
+
+                <div id="group-details">
+                    <div class="group-form-wrapper"></div>
+                    <div class="group-members">
+                        <h3>Members</h3>
+                        <div class="group-member-search">
+                            <input type="search" class="group-member-search"/>
+                        </div>
+                        <div class="group-members-table-wrapper"></div>
+                    </div>
+                </div>
+
+                <div id="add-members-panel"">
+                    <h2>Add Members to Group</h2>
+                    <table>
+                        <tr>
+                            <td valign="top">
+                                <div>
+                                    <h3>Users</h3>
+                                    <div class="users-list">
+                                        <div class="user-search">
+                                            <input type="search" class="user-search"/>
+                                        </div>
+                                        <div class="users-list-wrapper"></div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td valign="center">
+                                <div>
+                                    <button class="add-user-button">&raquo;</button>
+                                    <br/>
+                                    <button class="remove-user-button">&laquo;</button>
+                                </div>
+                            </td>
+                            <td valign="top">
+                                <div>
+                                    <h3>Group Members</h3>
+                                    <div class="members-list">
+                                        <div class="members-search">
+                                            <input type="search" class="members-search"/>
+                                        </div>
+                                        <div class="members-list-wrapper"></div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td valign="top">
+                                <div class="edit-group-member-wrapper"></div>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    
+                </div>
+            </div>
+            
+            <div class="no-group-selected">
+                <p>To manage a group, select it from the menu on the left.</p>
+            </div>
+        </div>
+
+        
+        <div class="ui-layout-west groups-list-west">
+            <div id="groups">
+                <h3>Groups</h3>
+                <div class="groups-toolbar">
+                    <button class="new-group-btn">+</button>
+                    <button class="delete-group-btn">-</button>
+                </div>
+                <div class="group-search">
+                    <input type="search" class="group-search"/>
+                </div>
+                <div class="group-table-wrapper">
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        
+        
+        
+        
+    </div>
+    {/fill_slot}
+{/use_macro}

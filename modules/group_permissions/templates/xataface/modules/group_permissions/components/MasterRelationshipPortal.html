@@ -1,0 +1,59 @@
+<div class="master-relationship-portal" 
+    data-master-table-name="{$portal->masterTableName()|escape}"
+    data-master-table-column="{$portal->columnName()|escape}"
+    data-relationship-name="{$portal->relationshipName()|escape}"
+    data-related-columns="{foreach from=$portal->relatedColumns() item=col}{$col.name|escape} {/foreach}"
+    >
+    <div class="search-panel">
+        <div class="search-box">
+            <input type="text" class="search"/>
+        </div>
+        <div class="search-results">
+            
+            <table class="search-results">
+                <thead>
+                    <tr>
+                        <th><span>{$portal->columnLabel()|escape}</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span data-kvc="{$portal->columnName()|escape}">Test</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+        </div>
+    </div>
+    
+    
+    <div class="relationship-panel">
+        <div class="toolbar">
+            
+        
+        </div>
+        
+        <div class="relationship-results-panel">
+            <table class="relationship-results">
+                <thead>
+                    <tr>
+                        {foreach from=$portal->relatedColumns() item=col}
+                            <th><span>{$col.widget.label|escape}</span></th>
+                        {/foreach}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        {foreach from=$portal->relatedColumns() item=col}
+                            <td><span data-kvc="{$col.name|escape}">Value</span></td>
+                        {/foreach}
+                    </tr>
+                </tbody>
+            
+            </table>
+        
+        </div>
+    
+    </div>
+
+</div>

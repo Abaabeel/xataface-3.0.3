@@ -1,0 +1,41 @@
+/* 
+    Document   : manage_groups
+    Created on : May 30, 2013, 2:17:21 PM
+    Author     : shannah
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.groups-list-west {
+    background-color: #eaeaea !important;
+}
+
+#manage-groups-panel.no-group-selected .tabs {
+    display: none;
+}
+
+#manage-groups-panel .no-group-selected {
+    display: none;
+}
+
+#manage-groups-panel.no-group-selected .no-group-selected {
+    display: block;
+}
+
+
+.users-list-wrapper, .members-list-wrapper  {
+    background-color: white !important;
+    border: 1px dotted #666;
+}
+
+.users-list-wrapper .uitk-uitable,
+.members-list-wrapper .uitk-uitable {
+    width: 100%;
+}
+
+.members-list-wrapper  thead,
+.users-list-wrapper  thead{
+    font-weight: bold;
+    background-color: #ccc;
+    
+}

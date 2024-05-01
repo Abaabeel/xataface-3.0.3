@@ -1,0 +1,14 @@
+[summary_page]
+	category=table_tabs
+	order=10
+	label=Summary
+	mode=summary_page
+	url="{$this->url('-action=summary_page')}"
+	permission=summary
+	mode=list
+	
+[summary_page_csv > export_csv]
+	category=summary_list_actions
+	url="{$this->url('')}&--format=csv"
+	permission=summary
+	

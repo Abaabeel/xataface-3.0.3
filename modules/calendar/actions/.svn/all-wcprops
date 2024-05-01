@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2685/dataface/modules/calendar/trunk/actions
+END
+calendar_display.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2670/dataface/modules/calendar/trunk/actions/calendar_display.php
+END
+calendar_event_resized.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2670/dataface/modules/calendar/trunk/actions/calendar_event_resized.php
+END
+calendar_event_moved.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2685/dataface/modules/calendar/trunk/actions/calendar_event_moved.php
+END
+calendar_json_feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2685/dataface/modules/calendar/trunk/actions/calendar_json_feed.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x
+END
+tm.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/tm.php
+END
+permissions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/permissions.ini
+END
+actions.ini
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/actions.ini
+END
+installer.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/installer.php
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3849/dataface/modules/tm/branches/0.2.x/version.txt
+END

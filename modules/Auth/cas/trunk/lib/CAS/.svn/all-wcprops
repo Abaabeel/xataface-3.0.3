@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4197/dataface/modules/Auth/cas/trunk/lib/CAS
+END
+client.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4197/dataface/modules/Auth/cas/trunk/lib/CAS/client.php
+END
+domxml-php4-php5.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/158/dataface/modules/Auth/cas/trunk/lib/CAS/domxml-php4-php5.php
+END
+CAS.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4113/dataface/modules/Auth/cas/trunk/lib/CAS/CAS.php
+END

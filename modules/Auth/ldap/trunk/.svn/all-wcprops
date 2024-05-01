@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/320/dataface/modules/Auth/ldap/trunk
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/320/dataface/modules/Auth/ldap/trunk/README.txt
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/320/dataface/modules/Auth/ldap/trunk/version.txt
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/320/dataface/modules/Auth/ldap/trunk/changes.txt
+END
+ldap.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/320/dataface/modules/Auth/ldap/trunk/ldap.php
+END

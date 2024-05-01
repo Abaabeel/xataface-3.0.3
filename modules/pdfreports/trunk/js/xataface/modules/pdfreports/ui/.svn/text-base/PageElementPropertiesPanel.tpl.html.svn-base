@@ -1,0 +1,47 @@
+
+<fieldset>
+	<legend>Fonts</legend>
+
+	<div class="fontSizeSelector">
+		<label>Font Size</label>
+		<!-- Font Size Selector goes here -->
+	</div>
+	
+	
+	<div class="fontFaceSelector">
+		<label>Font Family</label>
+		<!-- Font Face Selector goes here -->
+	</div>
+	
+	<div class="fontStyles">
+		<label>Font Styles</label>
+		
+		<label for="bold">Bold</label><span class="boldToggle"></span>
+		<label for="italic">Italic</label><span class="italicToggle"></span>
+		<label for="underline">Underline</label><span class="underlineToggle"></span>
+	</div>
+	
+	<div class="textAlign">
+		<label>Align</label>
+		<button data-xf-text-align="left" class="left"><span>Left</span></button>
+		<button data-xf-text-align="center" class="center"><span>Center</span></button>
+		<button data-xf-text-align="right" class="right"><span>Right</span></button>
+	</div>
+	
+	<div class="colors">
+		<label>Foreground</label> <input type="text" class="foreground-color"/>
+		<label>Background</label> <input type="text" class="background-color"/>
+	
+	</div>
+	
+
+</fieldset>
+<fieldset>
+	<legend>Content</legend>
+	
+	<div class="contentEditor">
+		<span class="fieldSelectorButton"></span>
+	</div>
+	
+</fieldset>
+

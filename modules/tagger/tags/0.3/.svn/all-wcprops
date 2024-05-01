@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/changes.txt
+END
+widget.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/widget.php
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/readme.txt
+END
+tagger.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/tagger.php
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/Doxyfile
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2313/dataface/modules/tagger/tags/0.3/version.txt
+END

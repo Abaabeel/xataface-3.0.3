@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3150/dataface/modules/Email/trunk/tables/dataface__email_blacklist
+END
+fields.ini
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3150/dataface/modules/Email/trunk/tables/dataface__email_blacklist/fields.ini
+END
+dataface__email_blacklist.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3150/dataface/modules/Email/trunk/tables/dataface__email_blacklist/dataface__email_blacklist.php
+END

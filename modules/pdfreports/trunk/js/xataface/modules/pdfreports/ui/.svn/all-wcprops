@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/ui
+END
+PortalPropertiesPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/ui/PortalPropertiesPanel.js
+END
+PageElementPropertiesPanel.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/ui/PageElementPropertiesPanel.js
+END
+ls
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/ui/ls
+END
+SchemaBrowser.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/ui/SchemaBrowser.js
+END
+PageElementPropertiesPanel.tpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/2967/dataface/modules/pdfreports/trunk/js/xataface/modules/pdfreports/ui/PageElementPropertiesPanel.tpl.html
+END

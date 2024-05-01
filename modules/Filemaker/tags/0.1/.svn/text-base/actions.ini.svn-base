@@ -1,0 +1,7 @@
+[fmpxmlresult]
+	category=result_list_actions
+	icon="{$dataface_url}/modules/Filemaker/FileMakerPro8-16x16.png"
+	url="{$app->url('-action=fmpxmlresult')}"
+	label="Filemaker XML"
+	description="Export as a Filemaker XML Datasource"
+	permission=view

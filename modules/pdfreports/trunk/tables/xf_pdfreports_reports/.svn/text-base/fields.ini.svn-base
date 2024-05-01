@@ -1,0 +1,54 @@
+[fieldgroup:actions]
+	label="Action Properties"
+	description="Select how and where you want this report to be incorporated into the Xataface interface."
+	order=10
+
+[report_template]
+	widget:type=hidden
+	
+[created_by]
+	widget:type=hidden
+
+[date_created]
+	widget:type=hidden
+	timestamp=insert
+	
+[last_modified]
+	widget:type=hidden
+	timestamp=update
+	
+[background_pdf]
+	widget:description="Please select a PDF to use as the backdrop of this report."
+	
+[action_name]
+	group=actions
+	validators:regex="/^[a-z0-9A-z_]+$/"
+	widget:description="The name of this action.  Should not contain any spaces."
+
+[action_label]
+	group=actions
+	widget:description="The label that will appear in the menu or toolbar for this action."
+	
+[action_table]
+	widget:label="Table"
+	widget:type=select
+	vocabulary=tablenames
+	widget:description="Select which table this report should be designed for."
+	
+[action_category]
+	widget:type=select
+	vocabulary=action_categories
+	group=actions
+	widget:description="The category defines where in the user interface the action should appear."
+	
+[action_permission]
+	widget:type=select
+	vocabulary=action_permissions
+	widget:label="Permission"
+	widget:description="The permission required for a user to be able to print this report."
+	
+[action_order]
+	group=actions
+	widget:atts:size=5
+	widget:description="The order within the action menu where this should appear.  You may use negative numbers and decimals.  Lower numbers appear first."
+	

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3828/dataface/modules/tm/trunk/templates/xataface/modules/tm
+END
+translate.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3591/dataface/modules/tm/trunk/templates/xataface/modules/tm/translate.html
+END
+translation_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3828/dataface/modules/tm/trunk/templates/xataface/modules/tm/translation_form.html
+END
+translate_nowrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3591/dataface/modules/tm/trunk/templates/xataface/modules/tm/translate_nowrapper.html
+END

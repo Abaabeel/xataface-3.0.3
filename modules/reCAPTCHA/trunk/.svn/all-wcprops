@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2237/dataface/modules/reCAPTCHA/trunk
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1056/dataface/modules/reCAPTCHA/trunk/readme.txt
+END
+reCAPTCHA.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2237/dataface/modules/reCAPTCHA/trunk/reCAPTCHA.php
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1056/dataface/modules/reCAPTCHA/trunk/version.txt
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1056/dataface/modules/reCAPTCHA/trunk/changes.txt
+END

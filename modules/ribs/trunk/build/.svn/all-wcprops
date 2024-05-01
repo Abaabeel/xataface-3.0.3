@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/build
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/build/README
+END
+jslint.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/build/jslint.js
+END
+builder-jslint.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/build/builder-jslint.js
+END
+report.css
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/build/report.css
+END
+crxmake.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4614/dataface/modules/ribs/trunk/build/crxmake.sh
+END

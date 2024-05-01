@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/4075/dataface/modules/tm/trunk/lib
+END
+XFTranslationMemory.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4075/dataface/modules/tm/trunk/lib/XFTranslationMemory.php
+END
+kevin_XLIFFDocumentTester.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3711/dataface/modules/tm/trunk/lib/kevin_XLIFFDocumentTester.php
+END
+XLIFFReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3812/dataface/modules/tm/trunk/lib/XLIFFReader.php
+END
+kevin_XLIFFtester.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3810/dataface/modules/tm/trunk/lib/kevin_XLIFFtester.php
+END
+test.xliff
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3682/dataface/modules/tm/trunk/lib/test.xliff
+END
+googleTranslatePluginTester.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3902/dataface/modules/tm/trunk/lib/googleTranslatePluginTester.php
+END
+TMTools.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3922/dataface/modules/tm/trunk/lib/TMTools.php
+END
+TranslationStringParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3922/dataface/modules/tm/trunk/lib/TranslationStringParser.php
+END
+kevin_TranslationStringTaggerTester.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3746/dataface/modules/tm/trunk/lib/kevin_TranslationStringTaggerTester.php
+END
+XLIFFWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4006/dataface/modules/tm/trunk/lib/XLIFFWriter.php
+END
+XLIFFDocument.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3711/dataface/modules/tm/trunk/lib/XLIFFDocument.php
+END
+XFTranslationMemoryReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4075/dataface/modules/tm/trunk/lib/XFTranslationMemoryReader.php
+END
+xliff-core-1.2-strict.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3660/dataface/modules/tm/trunk/lib/xliff-core-1.2-strict.xsd
+END
+googleTranslatePlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3902/dataface/modules/tm/trunk/lib/googleTranslatePlugin.php
+END
+XLIFFListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3796/dataface/modules/tm/trunk/lib/XLIFFListener.php
+END
+kevin_XLIFFReaderTester.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3796/dataface/modules/tm/trunk/lib/kevin_XLIFFReaderTester.php
+END
+TranslationStringTagger.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3746/dataface/modules/tm/trunk/lib/TranslationStringTagger.php
+END
+XFTranslationDictionary.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3783/dataface/modules/tm/trunk/lib/XFTranslationDictionary.php
+END

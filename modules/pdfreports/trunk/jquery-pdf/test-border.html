@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<title>Testing</title>
+
+<style type="text/css">
+	body {
+		background-color: #ccc;
+	}
+	#content {
+		width: 8.5in;
+		height: 8.5in;
+		margin: 10px auto;
+		background-color: white;
+		
+	}
+	
+	#outer {
+		background-color: blue;
+		border: 5px solid red;
+		border-left-width: 2px;
+		border-left-color: green;
+		border-top-width: 10px;
+		margin-left: 10px;
+		position: absolute;
+		top: 50px;
+		font-size: 50px;
+		padding-left: 20px;
+	}
+	
+	#outer2 {
+		position: absolute;
+		top:400px;
+		left: 400px;
+		background-color: yellow;
+		border-color: black;
+		width: 10px;
+		height: 10px;
+		border-width: 10px;
+		border-style: solid;
+	}
+	
+	
+	
+</style>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.json.js"></script>
+<script type="text/javascript" src="jquery.pdf.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('.getpdf').pdfButton({
+		'canvas': '#content'
+	});
+});
+</script>
+
+</head>
+<body>
+<div id="content">
+<div id="outer">
+	<div id="inner">
+		Hello World
+	</div>
+</div>
+
+<div id="outer2">
+	<div id="inner2">
+		
+	</div>
+</div>
+
+<table width="100%" border="1">
+<tr><td>This is a cell</td><td>Another cell</td></tr>
+</table>
+
+</div>
+
+
+<input type="button" class="getpdf" value="Get PDF"/>
+</body>
+</html>
