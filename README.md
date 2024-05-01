@@ -1,6 +1,8 @@
 # Xataface
 
-Needed old g2 theme activated - This repo uses the latest Xataface 3.0.3 and is tested on Ubuntu 22 LTS and PHP 8.1 and renders g2 theme. Some changes have been committed on the modules to accomodate g2. 
+Needed old g2 theme activated along with drop down filters as in version 2. 
+
+This repo uses the latest Xataface 3.0.3 and is tested on Ubuntu 22 LTS and PHP 8.1 and renders g2 theme. Some changes have been committed on the modules to accomodate g2. 
 
 To use clone the repo and call g2 module in conf.ini as follows:
 
