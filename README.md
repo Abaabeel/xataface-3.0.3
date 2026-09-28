@@ -1,3 +1,5 @@
+**UPDATE: Here is the actual repo https://github.com/shannah/xataface and now the author has added the old filters as a config directive**
+
 # Xataface
 
 Needed old g2 theme activated along with drop down filters as in version 2. 
